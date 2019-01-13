@@ -1,0 +1,31 @@
+[
+    {
+      "created_at": "6/7 8pm",
+      "value": 24.0
+    },
+    {
+      "created_at": "6/7 9pm",      
+      "value": 25.0
+    },
+    {
+      "created_at": "6/7 10pm",
+      "value": 21.062
+    },
+    {
+      "created_at": "6/7 11pm",      
+      "value": 21.125
+    },
+    {
+      "created_at": "6/8 12am",
+      "value": 21.125
+    },
+    {
+        "created_at": "6/9 8pm",
+      
+      "value": 21.187
+    },
+    {
+      "created_at": "June7-8pm", 
+      "value": 21.25
+    }
+]

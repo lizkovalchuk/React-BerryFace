@@ -1,0 +1,73 @@
+/*******************************************
+*TABLE OF CONTENTS
+*=================
+
+*1. HEADER 
+*2. MAIN
+    -- animation
+
+*********************************************/
+
+
+#main__link_homePage:hover {
+    color:white !important;
+    background-color: #FF8B24;
+}
+
+/* === ANIMATION ====  */
+
+
+/* STEP ONE - SETTING UP THE KEYFRAMES */
+
+@-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+  }
+
+@keyframes spinner {
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
+}
+
+/* STEP TWO - SETTING THE STAGE */
+
+.main__div_stage{
+    /* margin: 1em auto; */
+    margin-left: 1em auto;
+    margin-right: 1em auto;
+    margin-bottom: 1em auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+}
+
+/* STEP THEE - APPLE TO THE ELEMENT */
+
+.main__img_sphere{
+
+    margin-top: -75px;
+
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }

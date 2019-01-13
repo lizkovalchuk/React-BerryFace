@@ -1,0 +1,28 @@
+/* .App {
+  text-align: center; } */
+
+.App-logo {
+  height: 130px;
+  padding-top: 30px
+}
+
+.App-title {
+  font-size: 1.5em; 
+  margin-top: -80px;
+  margin-left: 170px;
+}
+
+/* .App-header{
+  height: 1%;
+} */
+
+.App-intro {
+  font-size: 4em; 
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.body__p_tempText{
+  text-align: center;
+}
+
